@@ -50,6 +50,10 @@ ul li:hover{
     cursor: pointer;
 }
 
+ul li a{
+    text-decoration: none;
+}
+
 /* HERO */
 
 .hero{
@@ -101,4 +105,9 @@ ul li:hover{
 
 .text-short{
     width: 45%;
+}
+
+/* FOOTER */
+footer{
+    height: 300px;
 }
