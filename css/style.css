@@ -7,4 +7,65 @@
 
 body{
     font-family: 'Titillium Web', sans-serif;
+    background-color: #8FBB99;
+}
+
+/* HEADER */
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.title{
+    width: 50%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+ul li{
+    display: flex;
+    margin: 0 0 0 10px;
+    width: 90px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li:hover{
+    background-color: #9b8b8b;
+    cursor: pointer;
+}
+
+/* HERO */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    background-image: url(https://image.freepik.com/foto-gratis/pizza-cultivo-negro_23-2147749510.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero h1, .hero h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    color: #8FBB99;
 }
