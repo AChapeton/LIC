@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Titillium Web', sans-serif;
-    background-color: #8FBB99;
+    background-color: #111111;
 }
 
 /* HEADER */
@@ -78,7 +78,7 @@ ul li a{
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     text-align: center;
-    color: #8FBB99;
+    color: white;
 }
 
 /* HISTORIA */
@@ -86,11 +86,12 @@ ul li a{
 .text{    
     margin: 2em 0;
     text-align: justify;
+    color: white;
 }
 
 .text h1{
     padding: 0 0 0 10px;
-    border-left: 0.2em solid #B0FE76;
+    border-left: 0.2em solid #F64322;
     margin: 0 0 0.5em 0;
     font-size: 2.2em;
 }
@@ -125,12 +126,13 @@ ul li a{
 }
 
 .card {
+    color: white;
     margin: 40px 0;
     width: 25%;
     height: 300px;
     text-align: center;
     padding: 30px;
-    box-shadow: 0px 0px 4px 0 rgba(98, 121, 145, 0.849);
+    box-shadow: 0px 0px 4px 0 #F64322;
     border-radius: 15%;
 }
 
@@ -146,9 +148,9 @@ ul li a{
     padding: 52px 0;
 }
 .h1-text{
-    border-left: 0.2em solid #B0FE76;
+    border-left: 0.2em solid #F64322;
     padding: 0 0 0 10px;
-    
+    color: white;
     margin: 0 0 0.5em 0;
     font-size: 2.2em;
 }

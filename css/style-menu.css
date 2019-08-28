@@ -7,7 +7,15 @@
 
 body{
     font-family: 'Titillium Web', sans-serif;
-    background-color: #8FBB99;
+    background-color: #111111;
+}
+
+h2{
+  box-shadow: 0px 0px 4px 0 #F64322;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: white;
 }
 
 /* HEADER */
@@ -71,7 +79,7 @@ h2{
 
 .container-menu {
   position: relative;
-  background-color: #9b8b8b;
+  background-color: #F64322;
   margin: auto;
   width: 90%;
   height: 100%;
@@ -83,6 +91,7 @@ h2{
   max-width: 100%;
   width: 275px;
   height: 189px;
+  box-shadow: 0px 0px 4px 0 #111111;
   border-radius: 8px;
 }
 
@@ -96,7 +105,7 @@ h2{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #9b8b8b;
+  background-color: #F64322;
 }
 
 .container-menu:hover .image {

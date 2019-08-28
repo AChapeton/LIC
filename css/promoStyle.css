@@ -44,6 +44,7 @@
 .slider li{
 	width: 100%;
 	list-style: none;
+	color: white;
 }
 .slider ul li:hover{
 	background-color: transparent;
@@ -56,6 +57,7 @@
 }
 .slider2 ul li:hover{
 	background-color: transparent;
+	color: white;
 
 }
 
@@ -66,6 +68,7 @@
 	margin: 1em 0;
     font-size: 1.4em;
     padding-top: 70px;
+    color:white;
 
 }
 
@@ -87,11 +90,13 @@
 	margin: auto;
 	margin-bottom: 60px;
 	margin-top: 50px;
+	color: white;
 }
 
 .mytitulo h1{
 	text-align: center;
 	font-family: 'Titillium Web';
+	color: white;
 
 
 }
