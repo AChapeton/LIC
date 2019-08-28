@@ -1,12 +1,76 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 
-	background-color: #8FBB99;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.container {
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #8FBB99;
+}
+
+/* HEADER */
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 1.2em;
+    background-color: rgb(49, 49, 48);
+    
+}
+
+.title{
+    width: 50%;
+    margin-left: 25px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+ul li{
+    display: flex;
+    margin: 0 0 0 5px;
+    width: 125px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+ul li:hover{
+    background-color: #9aa5bd;
+    cursor: pointer;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(243, 227, 227);
+}
+
+
+h2{
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 45px
+}
+.container-menu {
   position: relative;
   background-color: #9b8b8b;
-  width: 100%;
+  margin: auto;
+  width: 90%;
   height: 100%;
   border-radius: 8px;
 
@@ -32,10 +96,10 @@ body{
   background-color: #9b8b8b;
 }
 
-.container:hover .image {
+.container-menu:hover .image {
   opacity: 1;
 }
-.container:hover .overlay {
+.container-menu:hover .overlay {
   opacity: 1;
 }
 
