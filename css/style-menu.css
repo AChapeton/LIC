@@ -60,10 +60,13 @@ ul li a{
     color: rgb(243, 227, 227);
 }
 
+
+
 .container-menu {
   position: relative;
   background-color: #9b8b8b;
-  width: 100%;
+  margin: auto;
+  width: 90%;
   height: 100%;
   border-radius: 8px;
 
