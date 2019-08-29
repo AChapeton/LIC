@@ -277,6 +277,11 @@ footer{
     font-weight: bold;
 }
 
+.columnaMapa ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .columna1{
     max-width: 400px;
 }
