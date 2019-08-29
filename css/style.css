@@ -30,6 +30,7 @@ body{
 .title{
     width: 50%;
     margin-left: 25px;
+    color: #c7c7c7;
 }
 
 ul{
@@ -154,3 +155,120 @@ ul li a{
     margin: 0 0 0.5em 0;
     font-size: 2.2em;
 }
+
+
+footer{
+    background: red ;
+    color: white;
+
+}
+
+.contenedorFooterAll{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    padding:40px;
+}
+
+.contenedorFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna1{
+    max-width: 400px;
+}
+
+.columna1 h5{
+    font-size: 22px;
+}
+
+.columna1 p{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+
+.columna2{
+    max-width: 400px;
+}
+
+.columna2{
+    font-size: 22px;
+
+}
+
+.filas{
+    margin-top: 20px;
+    display: flex;
+}
+
+.filas img{
+    width: 35px;
+    height: 36px;
+}
+
+.filas label{
+    margin-top: 2px;
+    margin-left: 10px;
+    color: #c7c7c7;
+}
+
+.columna3{
+    max-width: 400px;
+}
+
+.columna3 h5{
+    font-size: 22px;
+}
+
+.filas2{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.filas2 img{
+    width: 35px;
+    height: 35px;
+}
+
+.filas2 label{
+    margin-left: 20px;
+    max-width: 140px;
+    margin-top: 2px;
+
+
+}
+
+.contenedorFooter2{
+    width: 100%;
+    display: flex;
+
+
+}
+
+.copyright{
+    color: #c7c7c7;
+
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.footerAling
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+
+
