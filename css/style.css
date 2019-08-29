@@ -115,9 +115,10 @@ ul li a{
     width: 45%;
 }
 
-/* FOOTER */
+/* MENÚ */
 
-/*Promociones*/
+/* PROMOCIONES */
+
 .cards {
     width: 100%;
     margin: auto;
@@ -139,15 +140,16 @@ ul li a{
 
 .cards img {
     width: 100%;
-    object-fit: cover;
-    
+    object-fit: cover;    
 }
+
 .contenedor {
     width: 90%;
     margin: auto;
     overflow: hidden;
     padding: 52px 0;
 }
+
 .h1-text{
     border-left: 0.2em solid #F64322;
     padding: 0 0 0 10px;
@@ -156,11 +158,101 @@ ul li a{
     font-size: 2.2em;
 }
 
+.slider{
+	width: 70%;
+	height: 400px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul li img{
+ 	width: 100%;
+ 	object-fit: cover;
+}
+
+
+.slider2{
+	width: 70%;
+	height: 200px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul{
+	display: flex;
+	width: 300%;
+	padding-top: 100px;
+	animation: cambio 15s infinite;
+	animation-direction: alternate;
+}
+
+.slider2 ul{
+	display: flex;
+	padding: 15px;;
+	width: 300%;
+	animation: cambio 15s infinite;
+	animation-direction: alternate;
+}
+
+.slider li{
+	width: 100%;
+	list-style: none;
+	color: white;
+}
+
+.slider ul li:hover{
+	background-color: transparent;
+}
+
+.slider2 li{
+	width: 100%;
+	list-style: none;
+}
+
+.slider2 ul li:hover{
+	background-color: transparent;
+	color: white;
+}
+
+.slider2 p{	
+	margin: 1em 0;
+    font-size: 1.4em;
+    padding-top: 70px;
+    color:white;
+}
+
+@keyframes cambio{
+	0% {margin-left:  0;}
+	30%{margin-left: 0;}
+
+	35% {margin-left:  -100%;}
+	65%{margin-left: -100%;}
+
+	70% {margin-left:  -200%;}
+	100%{margin-left: -200%;}
+
+}
+
+
+.mytitulo{
+	width: 400px;
+	margin: auto;
+	margin-bottom: 60px;
+	margin-top: 50px;
+	color: white;
+}
+
+.mytitulo h1{
+	text-align: center;
+	color: white;
+}
+
+
+/* FOOTER */
 
 footer{
-    background: red ;
+    background: red;
     color: white;
-
 }
 
 .contenedorFooterAll{
