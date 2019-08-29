@@ -265,6 +265,7 @@ footer{
 .contenedorFooter{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .columna1{
@@ -354,12 +355,15 @@ footer{
 
 .footerAling
 {
-    max-width: 1200px;
+    max-width: 3000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 5px;
 
+}
+.other{
+    margin:50px;
 }
 
 
