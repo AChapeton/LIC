@@ -268,6 +268,15 @@ footer{
     
 }
 
+.columnaMapa ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.columnaMapa ul .titleMapa{
+    font-weight: bold;
+}
+
 .columna1{
     max-width: 400px;
 }
@@ -288,7 +297,6 @@ footer{
 
 .columna2{
     font-size: 22px;
-
 }
 
 .filas{
