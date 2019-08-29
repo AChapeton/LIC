@@ -320,6 +320,9 @@ footer{
     display: flex;
 
 }
+.filas a{
+    text-decoration: none;
+}
 
 .filas2 img{
     width: 35px;
