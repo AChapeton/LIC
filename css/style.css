@@ -10,24 +10,84 @@ body{
     background-color: #111111;
 }
 
-/* HEADER */
-
 .container{
     width: 90%;
     margin: auto;
 }
 
-.nav{
+.flex-row{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    font-size: 1.2em;
-    background-color: rgb(49, 49, 48);
-    
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.title{
+a{
+    text-decoration: none;
+}
+
+.text-white{
+    color: #c7c7c7;
+}
+
+/* HEADER */
+
+nav{
+    background: #111111;
+    position: relative;
+    justify-content: space-between;
+    height: 0rem;
+    min-height: 10vh;
+    overflow-y: hidden;
+    transition: height 0.8s ease-in-out;
+}
+
+nav .nav-brand a{
+    display: block;
+    padding: 1rem 1rem;
+    font-size: 1.6rem;
+}
+
+nav .nav-items{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav .nav-items .nav-link{
+    padding: 1.3rem 1rem;
+    font-size: 1.1rem;
+}
+
+nav .nav-items .nav-link:hover{
+    background: #c7c7c7;
+}
+
+nav .nav-items .nav-link:hover a{
+    color: #111111;
+}
+
+nav .toggle-collapse{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    cursor: pointer;
+    display: none;
+}
+
+nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.4rem 1.4rem;
+}
+
+nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+}
+
+.collapse{
+    height: 22rem;
+}
+
+/* .title{
     width: 50%;
     margin-left: 25px;
     color: #c7c7c7;
@@ -59,7 +119,7 @@ ul li:hover{
 ul li a{
     text-decoration: none;
     color: rgb(243, 227, 227);
-}
+} */
 
 /* HERO */
 
@@ -165,7 +225,7 @@ ul li a{
 	overflow: hidden;
 }
 
-.slider ul li img{
+.slider > ul li img{
  	width: 100%;
  	object-fit: cover;
 }
@@ -178,7 +238,7 @@ ul li a{
 	overflow: hidden;
 }
 
-.slider ul{
+.slider > ul{
 	display: flex;
 	width: 300%;
 	padding-top: 100px;
@@ -194,13 +254,13 @@ ul li a{
 	animation-direction: alternate;
 }
 
-.slider li{
+.slider > li{
 	width: 100%;
 	list-style: none;
 	color: white;
 }
 
-.slider ul li:hover{
+.slider > ul li:hover{
 	background-color: transparent;
 }
 
@@ -209,7 +269,7 @@ ul li a{
 	list-style: none;
 }
 
-.slider2 ul li:hover{
+.slider2 > ul li:hover{
 	background-color: transparent;
 	color: white;
 }
@@ -273,11 +333,11 @@ footer{
     flex-direction: column;
 }
 
-.columnaMapa ul .titleMapa{
+.columnaMapa > ul .titleMapa{
     font-weight: bold;
 }
 
-.columnaMapa ul a{
+.columnaMapa > ul a{
     text-decoration: none;
     color: #fff;
 }
@@ -382,5 +442,19 @@ footer{
     margin:50px;
 }
 
+@media only screen and (max-width: 800px){
+    nav .nav-items{
+        flex-direction: column;
+    }
+
+    nav{
+        flex-direction: column !important;
+        display: block !important;
+    }
+
+    nav .toggle-collapse{
+        display: initial;
+    }
+}
 
 
