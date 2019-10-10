@@ -42,14 +42,33 @@
         </div>
     </nav>
 
-   <div>
-       <form action="">
-        <h2>Sugerencias</h2>
-        <input type="text" name="name" id="name" placeholder="Ingrese su nombre">
-        <input type="text" name="desc" id="desc" placeholder="Ingrese una descripción">
-        <input type="text" name="foto" id="foto" placeholder="Ingrese la url de la foto">
-       </form>
-   </div>
+   
+	<div class="contenedor">
+
+		<form action=" " class="form" name="datos">
+			<div class="form-header">
+				<h1 class="form-title">S<span>ugerencias</span></h1>
+			</div>
+
+			<label for="nombre" class="form-label"> Nombre Platillo: </label>
+			<input type="tex" name="nombre" class="form-input" placeholder="Escriba el nombre del platillo" id="nombre">
+
+			<label for="desc" class="form-label"> Descripcion: </label>
+			<input type="tex" name="desc" class="form-input" placeholder="Escriba una Descripcion" id="des">
+
+			<label for="img" class="form-label"> URL de Imagen de referencia: </label>
+			<input type="text" name="img" class="form-input" placeholder="Ingrese URL" id="img">
+
+
+			<input type="button" class="btn-submint" value="Procesar" onclick="obtenerdatos()">
+
+
+			<br>
+			<br>		
+
+	
+		</form>
+	</div>
 <!-- clases del footer 
     main-footer
     container
