@@ -276,135 +276,60 @@ nav .toggle-collapse .toggle-icons i{
 
 
 /* FOOTER */
-
-footer{
-    background: red;
-    color: white;
+/*Estilo agregado para el footer by wilmer*/
+.container--flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.contenedorFooterAll{
-    width: 100%;
-    max-width: 1200px;
+.column{
+    width: 100%;    
+}
+
+.column__title{
+    font-size: 1.3em;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXX*/
+.main-footer{
+    background: #222;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: .8em;
+}
+
+.copy{
+    text-align: center;
     margin:auto;
-    padding:40px;
+    margin-top: 15px;
 }
 
-.contenedorFooter{
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.columnaMapa ul{
-    display: flex;
-    flex-direction: column;
-}
-
-.columnaMapa > ul .titleMapa{
-    font-weight: bold;
-}
-
-.columnaMapa > ul a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.columna1{
-    max-width: 400px;
-}
-
-.columna1 h5{
-    font-size: 22px;
-}
-
-.columna1 p{
-    font-size: 14px;
-    color: #c7c7c7;
-    margin-top: 20px;
-}
-
-.columna2{
-    max-width: 400px;
-}
-
-.columna2{
-    font-size: 22px;
-}
-
-.filas{
-    margin-top: 20px;
-    display: flex;
-}
-
-.filas img{
-    width: 35px;
-    height: 36px;
-}
-
-.filas label{
-    margin-top: 2px;
-    margin-left: 10px;
-    color: #c7c7c7;
-}
-
-.columna3{
-    max-width: 400px;
-}
-
-.columna3 h5{
-    font-size: 22px;
-}
-
-.filas2{
-    margin-top: 20px;
-    display: flex;
-
-}
-.filas a{
-    text-decoration: none;
-}
-
-.filas2 img{
-    width: 35px;
-    height: 35px;
-}
-
-.filas2 label{
-    margin-left: 20px;
-    max-width: 140px;
-    margin-top: 2px;
-
-
-}
-
-.contenedorFooter2{
-    width: 100%;
-    display: flex;
-
-
-}
-
-.copyright{
-    color: #c7c7c7;
-
-}
-
-.copyright a{
-    text-decoration: none;
+.main-footer[class*="icon-"]{
     color: white;
-    font-weight: bold;
-    
+    text-decoration: none;
 }
 
-.footerAling
-{
-    max-width: 3000px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-
+.main-footer .enlace{
+    color: white;
+    text-decoration: none;
 }
+
+.main-footer a:visited{
+    color: #777;
+}
+
+.main-footer[class*="icon-"]:before{
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .other{
     margin:50px;
 }
@@ -421,6 +346,31 @@ footer{
 
     nav .toggle-collapse{
         display: initial;
+    }
+}
+
+
+/*footer Responsivo*/
+   
+
+
+@media screen and (min-width:768px){
+    .main-footer .container--flex{
+        align-items: flex-start;
+
+    }
+    .column--33{
+        width: 32%;
+    }
+    .column__title{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .main-footer{
+        padding-top: 35px;
+        padding-bottom: 30px;
     }
 }
 
