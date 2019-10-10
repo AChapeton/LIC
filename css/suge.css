@@ -1,0 +1,100 @@
+*{
+
+	margin: 0;
+	padding: 0;
+    
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: url(../images/fondo.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-attachment: fixed;
+    background-color:  #111111;
+	
+}
+
+.contenedor .form .form-header .form-title {
+	font-weight: normal;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 14px 0;
+}
+
+.contenedor .form .form-header .form-title span{
+	color: rgb(0, 0, 0);
+
+}
+
+.contenedor .form{
+	background: rgba(122, 153, 175, 0.6);
+	width: 90%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 50px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+
+}
+
+.contenedor .form .form-label {
+	display: block;
+	color: #000000;
+	font-size: 16px;
+	font-family: Roboto;
+	position: relative;
+	padding: 2px 0;
+}
+
+.contenedor .form .form-input{
+	background: #fff;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #82abd1;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 12px;
+	color: rgb(0, 0, 0);
+	font-family: Roboto;
+}
+
+.contenedor .form .btn-submint{
+	width: 100%;
+	font-family: Roboto;
+	outline: none;
+	background: #2b2a79;
+	font-size: 26px;
+	border: none;
+	color: rgb(12, 11, 11);
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+    border-radius: 50px;
+}
+
+.contenedor .form .btn-submint:hover{
+
+	background: rgb(19, 113, 253);
+
+
+}
+
+
+/* .contenedor .form .form-input2{
+	background: white;
+	border: none;
+	outline: none;	
+	width: 100%;
+	font-size: 12px;
+	color: rgb(156, 106, 106);
+	font-family: Arial;
+} */
+
+
+
