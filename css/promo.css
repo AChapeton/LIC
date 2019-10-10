@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Pacifico&display=swap');
+
+
+/*------------Estilos Base----------------*/
+
+img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+
+
+
+.container{
+	width: 100%;
+	margin: auto;
+}
+
+.container--flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.column{
+	width: 100%;	
+}
+
+
+.main__title {
+	margin:15px 0;
+	font-size: 1.8em;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+	color: white;
+}
+
+.column__title{
+	font-size: 1.3em;
+}
+
+
+
+
+.grupo__title{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-weight: 100;
+	font-size: 1.8em;
+	margin:30px;
+	color: white;
+}
+
+.today-special .column{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.today-special .img{
+	margin:auto;
+	max-width: 350px;
+}
+
+.today-special__title{
+
+	font-size: 1.3em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.today-special__price {
+	font-size: 1.5em;
+	color: #DE423A;
+	font-weight: bold;
+}
+
+
+@media screen and (min-width:768px){
+
+
+	.today-special .column{
+		border: 5px solid #ddd;
+		padding: 5px;
+	}
+
+	.today-special__img{
+		height: 200px;
+		object-fit: cover;
+	}
+
+
+	.column--50{
+		width: 49%;
+	}
+
+	.column--50-25{
+		width: 49%;
+	}
+
+	.column--33{
+		width: 32%;
+	}
+
+}
+
+
+@media screen and (min-width:768px){
+	.main__title{
+		font-size: 2.2em;
+	}
+
+	.column--50-25{
+		width: 24.5%;
+	}
+
+	.column__title{
+		font-size: 1em;
+	}
+
+	.grupo__title{
+		font-size: 2.2em;
+	}
+
+
+}
+
+@media screen and (min-width:1024px){
+
+	.container{
+		width: 1000px;
+	}
+
+
+
+
+	.main__title{
+		font-size: 2.5;
+	}
+
+
+
+	.today-special__title{
+		font-size: 1.4em;
+	}
+
+	.today-special__price{
+		font-size: 1.8em;
+	}
+
+
+
+
+}
+
+@media screen and (min-width:1600px){
+	.container{
+		width: 1400px;
+	}
+
+
+
+
+}
