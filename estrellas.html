@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/all.css">
+     <link rel="stylesheet" type="text/css" href="icon/styles.css">
+     <title>Calificanos</title>
+	
+	<style>
+		form{
+			width: 90%;
+			margin: auto;
+		}
+		.tabla{
+			margin: auto;
+			background-color: #11111;
+		}
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+	</style>
+</head>
+<body>
+ <nav class="nav flex-row">
+        <div class="nav-menu">
+            <div class="nav-brand">
+                <a href="#" class="text-white">Charlie Boy</a>
+            </div>
+        </div>
+        <div class="toggle-collapse">
+            <div class="toggle-icons text-white">
+                <span><i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+        <div>
+            <ul class="nav-items flex-row">
+                 <li class="nav-link">
+                    <a href="index.html" class="text-white">Inicio</a>
+                </li>
+                <li class="nav-link">
+                    <a href="platillosprincipales.html" class="text-white">Menú</a>
+                </li>
+                <li class="nav-link">
+                    <a href="sobrenosotros.html" class="text-white">Conócenos</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#footer" class="text-white">Contáctenos</a>
+                </li>
+                <li class="nav-link">
+                    <a href="sugerencias.html" class="text-white">Sugerencias</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+	<h1 class="text ">Formulario de Datos de Contacto</h1>
+	
+	<form name="miformulario" action="mailto:iralex1996@gmail.com" method="POST" enctype="text/plain">
+		<table class="tabla text">
+			<tr>
+				<td >
+					Nombres:
+				</td>
+				<td>
+					<input type="text" maxlength="30" placeholder="Nombre" size="15" name="nombre" tabindex="1">
+				</td>
+				<td >
+					
+				</td>
+				<td >
+					Apellidos:
+				</td>
+				<td>
+					<input tabindex="5" type="text" placeholder="Apellido" maxlength="9" size="15" name="Apellidos">
+				</td>
+
+			</tr>
+
+			<tr>
+				<td class="h">
+					Correo electronico:
+				</td>
+				<td>
+					<input type="email" maxlength="30" size="15" name="email" tabindex="2" placeholder="email">
+				</td>
+				<td class="tabular">
+					
+				</td>
+				<td >
+					Telefono:
+				</td>
+				<td>
+					<input type="text" maxlength="30" size="15" name="telefono" tabindex="2" placeholder="Telefono" >
+				</td>
+			</tr>
+				<tr>
+					<th colspan="5">Dejenos su comentario</th>
+				</tr>
+				<tr>
+					<td colspan="5">
+						<textarea name="comentarios" colspan="5" rows="10" cols="75" style="resize: none;" placeholder="Escribe aqui tus comentarios"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Danos tu valoracion:
+					</td>
+					<td colspan="4" >
+						 <p class="clasificacion" style="text-align: center;">
+					    	<input id="radio1" type="radio" name="estrellas" value="5"><!--
+					    --><label for="radio1">★</label><!--
+					    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+					    --><label for="radio2">★</label><!--
+					    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+					    --><label for="radio3">★</label><!--
+					    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+					    --><label for="radio4">★</label><!--
+					    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+					    --><label for="radio5">★</label>
+ 						 </p>
+					</td>
+				</tr>
+		</table>
+		<br>
+				<button class="btn btn1" type="submit">Enviar Datos al Correo</button>
+				<button  class="btn btn1"type="reset">Restablecer</button>
+
+	</form>
+
+	   <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">                 
+                <h2 class="column__title">Mapa del sitio</h2>  
+                <p class="column__txt"> <a class="enlace" href="index.html">Inicio</a> </p> 
+                <p class="column__txt"><a class="enlace" href="platillosprincipales.html">Menu</a></p> 
+                <p class="column__txt"><a class="enlace" href="promo.html">Promociones</a></p>                 
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title">Creadores</h2>
+                <p class="column__txt">Benjamín Gómez</p>
+                <p class="column__txt">Irvin Castro</p>  
+                <p class="column__txt">Andrés Chapetón</p>  
+                <p class="column__txt">Wilmer Flores</p>                
+                
+
+
+                
+            </div>
+
+            <div class="column column--33">
+                <h2 class="column__title">Siguenos</h2>
+                <p class="column__txt"><a class="icon-facebook" href="https://www.facebook.com/charlieboydelvolcansv/">Facebook</a></p> 
+                <p class="column__txt"><a class="icon-insta" href="https://www.instagram.com/charlieboypizza_sv/?hl=es-la">Imstagram</a></p>
+                <p class="column__txt">Sucursal Merliot: Ave. El Boquerón, Calle Libertad #1. Sucursal Volcán: Km. 16 1/2, Calle al Volcán de San Salvador.</p>           
+
+
+
+            </div>
+
+
+
+            <p class="copy">© 2019 Lenguaje Interpretado al Cliente  - Todos los derechos reservados</p>
+            
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
