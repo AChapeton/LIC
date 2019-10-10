@@ -334,6 +334,12 @@ nav .toggle-collapse .toggle-icons i{
     margin:50px;
 }
 
+/* CARRITO */
+.carrito{
+    display: block;
+    color: white;
+}
+
 @media only screen and (max-width: 800px){
     nav .nav-items{
         flex-direction: column;

@@ -56,7 +56,7 @@
   
 <div class="contenedor">  
     
-    <form action="" class="carrito">
+    <form action="" class="carrito" id="formCarrito">
       <div class="contenedor-platos"> 
         <img src="https://www.circuitogastronomico.com/wp-content/uploads/2017/04/DSC5910-800x534.jpg" alt="Avatar" class="image">
            <div class="text">
@@ -64,10 +64,10 @@
               <tbody>
                 <tr>
                   <td >
-                    <h2>Cantaloa Burger</h2>
+                    <h2 id="tituloPlato">Cantaloa Burger</h2>
                   </td>
                   <td>
-                    <input type="button" id="" value="$4.95$" class="btn btn1">
+                    <input type="button" id="precioPlato" value="$4.95$" class="btn btn1">
                   </td>
                   <td>
                     <button type="submit">+</button>
@@ -85,10 +85,13 @@
               <tbody>
                 <tr>
                   <td >
-                    <h2>Summer Burger</h2>
+                    <h2 id="tituloPlato">Summer Burger</h2>
                   </td>
                   <td>
-                    <input type="button" id="" value="$4.95$" class="btn btn1">
+                    <input type="button" id="precioPlato" value="$4.95$" class="btn btn1">
+                  </td>
+                  <td>
+                    <button type="submit">+</button>
                   </td>
                 </tr>
               </tbody>
@@ -103,10 +106,13 @@
               <tbody>
                 <tr>
                   <td >
-                    <h2>Cheese Burguer</h2>
+                    <h2 id="tituloPlato">Cheese Burguer</h2>
                   </td>
                   <td>
-                    <input type="button" id="" value="$5.00 " class="btn btn1">
+                    <input type="button" id="precioPlato" value="$5.00 " class="btn btn1">
+                  </td>
+                  <td>
+                    <button type="submit">+</button>
                   </td>
                 </tr>
               </tbody>
@@ -121,26 +127,34 @@
               <tbody>
                 <tr>
                   <td >
-                    <h2>Pizza Mariscada</h2>
+                    <h2 id="tituloPlato"> Pizza Mariscada</h2>
                   </td>
                   <td>
-                    <input type="button" id="" value="$9.99" class="btn btn1">
+                    <input type="button" id="precioPlato" value="$9.99" class="btn btn1">
+                  </td>
+                  <td>
+                    <button type="submit">+</button>
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
       </div>
-
+      
+      
     </form>
+
+   
 
   </div>
 
+  <div class="carrito" id="carrito"></div>
+
   <br>
   <br>
   <br>
 
-  div.carrito
+  
 
     <!-- <footer id="footer"> 
 
@@ -263,6 +277,7 @@
 
 
     <script src="js/main.js"></script>
+    <script src="js/carrito.js"></script>
 
 
 
