@@ -30,7 +30,7 @@ body{
 }
 
 .contenedor .form{
-	background: rgba(122, 153, 175, 0.6);
+	background: rgba(122, 153, 175, 0);
 	width: 90%;
 	max-width: 650px;
 	margin: auto;
