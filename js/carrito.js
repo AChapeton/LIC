@@ -1,10 +1,14 @@
 document.getElementById('formCarrito').addEventListener('submit', agregarComida);
 
+function getIdElement(div){
+    div.getElementById('tituloPlato');
+}
+
 function agregarComida(e){
     
     let nombrePlato = document.getElementById('tituloPlato').innerHTML;
     let precioPlato = document.getElementById('precioPlato').value;
-
+    
     const plato = {
         nombrePlato,
         precioPlato

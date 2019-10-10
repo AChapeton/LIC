@@ -53,57 +53,68 @@
 		 </div>
 	</div>
 	<div class="contenedor">
-		<div class="contenedor-platos"> 
-			<img src="http://www.lovethispic.com/uploaded_images/90109-Banana-Ice-Cream-Waffles.jpg" alt="Avatar" class="image">
-				 <div class="text">
-				 	<table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
-				 		<tbody>
-				 			<tr>
-				 				<td >
-				 					<h2>Banana Cream Waffle</h2>
-				 				</td>
-				 				<td>
-				 					<input type="button" id="" value="$1.00$" class="btn btn1">
-				 				</td>
-				 			</tr>
-				 		</tbody>
-				 	</table>
-				 </div>	
-		</div>
-	    <div class="contenedor-platos">
-	    	<img src="https://timeincsecure-a.akamaihd.net/rtmp_uds/429048911/201801/2066/429048911_5706013914001_5703341808001-vs.jpg?pubId=429048911&videoId=5703341808001" alt="Avatar" class="image">
-				 <div class="text">
-				 	<table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
-				 		<tbody>
-				 			<tr>
-				 				<td >
-				 					<h2>Cheesecake</h2>
-				 				</td>
-				 				<td>
-				 					<input type="button" id="" value="$1.00$" class="btn btn1">
-				 				</td>
-				 			</tr>
-				 		</tbody>
-				 	</table>
-	    		</div>
-		</div>
-	    <div class="contenedor-platos">
-	    	<img src="https://unareceta.com/wp-content/uploads/2015/07/brownie-con-helado-640x425.jpg" alt="Avatar" class="image">
-				 <div class="text">
-				 	<table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
-				 		<tbody>
-				 			<tr>
-				 				<td >
-				 					<h2>Brownie con helado</h2>
-				 				</td>
-				 				<td>
-				 					<input type="button" id="" value="$1.00$" class="btn btn1">
-				 				</td>
-				 			</tr>
-				 		</tbody>
-				 	</table>
-				</div>
-	    </div>    
+        <form action="" id="formCarrito">
+            <div class="contenedor-platos"> 
+                <img src="http://www.lovethispic.com/uploaded_images/90109-Banana-Ice-Cream-Waffles.jpg" alt="Avatar" class="image">
+                     <div class="text">
+                         <table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
+                             <tbody>
+                                 <tr>
+                                     <td >
+                                         <h2 id="tituloPlato">Banana Cream Waffle</h2>
+                                     </td>
+                                     <td>
+                                         <input type="button" id="precioPlato" value="$1.00$" class="btn btn1">
+                                     </td>
+                                     <td>
+                                        <button type="submit">+</button>
+                                      </td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                     </div>	
+            </div>
+            <div class="contenedor-platos">
+                <img src="https://timeincsecure-a.akamaihd.net/rtmp_uds/429048911/201801/2066/429048911_5706013914001_5703341808001-vs.jpg?pubId=429048911&videoId=5703341808001" alt="Avatar" class="image">
+                     <div class="text">
+                         <table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
+                             <tbody>
+                                 <tr>
+                                     <td >
+                                         <h2 id="tituloPlato">Cheesecake</h2>
+                                     </td>
+                                     <td>
+                                         <input type="button" id="precioPlato" value="$1.00$" class="btn btn1">
+                                     </td>
+                                     <td>
+                                        <button type="submit">+</button>
+                                      </td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                    </div>
+            </div>
+            <div class="contenedor-platos">
+                <img src="https://unareceta.com/wp-content/uploads/2015/07/brownie-con-helado-640x425.jpg" alt="Avatar" class="image">
+                     <div class="text">
+                         <table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
+                             <tbody>
+                                 <tr>
+                                     <td >
+                                         <h2 id="tituloPlato">Brownie con helado</h2>
+                                     </td>
+                                     <td>
+                                         <input type="button" id="precioPlato" value="$1.00$" class="btn btn1">
+                                     </td>
+                                     <td>
+                                        <button type="submit">+</button>
+                                      </td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                    </div>
+            </div>   
+        </form>
 	</div>
     
     <div class="carrito" id="carrito"></div>
@@ -233,6 +244,7 @@
 
 
     <script src="js/main.js"></script>
+    <script src="js/carrito.js"></script>
 
 
 

@@ -53,57 +53,69 @@
 		 </div>
 	</div>
 	<div class="contenedor">
-		<div class="contenedor-platos"> 
-			<img src="http://diningwithalice.com/wp-content/uploads/2015/02/Nutella-Milkshake-Recipe.jpg" alt="Avatar" class="image">
-				 <div class="text">
-				 	<table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
-				 		<tbody>
-				 			<tr>
-				 				<td >
-				 					<h2>Milkshake de Nutella</h2>
-				 				</td>
-				 				<td>
-				 					<input type="button" id="" value="$3.35" class="btn btn1">
-				 				</td>
-				 			</tr>
-				 		</tbody>
-				 	</table>
-				 </div>	
-		</div>
-	    <div class="contenedor-platos">
-	    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpTw9qY2SSZ6ryarUTPtoX_YF9Lzbn66owiahs5BYG2anCsNKekg" alt="Avatar" class="image">
-				 <div class="text">
-				 	<table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
-				 		<tbody>
-				 			<tr>
-				 				<td >
-				 					<h2>Frozens de Fruta</h2>
-				 				</td>
-				 				<td>
-				 					<input type="button" id="" value="$2.25" class="btn btn1">
-				 				</td>
-				 			</tr>
-				 		</tbody>
-				 	</table>
-	    		</div>
-		</div>
-	    <div class="contenedor-platos">
-	    	<img src="https://http2.mlstatic.com/balde-de-cervezas-sendstar-D_NQ_NP_959138-MLU26335617052_112017-Q.jpg" alt="Avatar" class="image">
-				 <div class="text">
-				 	<table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
-				 		<tbody>
-				 			<tr>
-				 				<td >
-				 					<h2>Las   Heladas</h2>
-				 				</td>
-				 				<td>
-				 					<input type="button" id="" value="$2.00" class="btn btn1">
-				 				</td>
-				 			</tr>
-				 		</tbody>
-				 	</table>
-				</div>
-	    </div>
+        <form action="" id="formCarrito">
+            <div class="contenedor-platos"> 
+                <img src="http://diningwithalice.com/wp-content/uploads/2015/02/Nutella-Milkshake-Recipe.jpg" alt="Avatar" class="image">
+                     <div class="text">
+                         <table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
+                             <tbody>
+                                 <tr>
+                                     <td >
+                                         <h2 id="tituloPlato">Milkshake de Nutella</h2>
+                                     </td>
+                                     <td>
+                                         <input type="button" id="precioPlato" value="$3.35" class="btn btn1">
+                                     </td>
+                                     <td>
+                                        <button type="submit">+</button>
+                                      </td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                     </div>	
+            </div>
+            <div class="contenedor-platos">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpTw9qY2SSZ6ryarUTPtoX_YF9Lzbn66owiahs5BYG2anCsNKekg" alt="Avatar" class="image">
+                     <div class="text">
+                         <table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
+                             <tbody>
+                                 <tr>
+                                     <td >
+                                         <h2 id="tituloPlato"> Frozens de Fruta</h2>
+                                     </td>
+                                     <td>
+                                         <input type="button" id="precioPlato" value="$2.25" class="btn btn1">
+                                     </td>
+                                     <td>
+                                        <button type="submit">+</button>
+                                      </td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                    </div>
+            </div>
+            <div class="contenedor-platos">
+                <img src="https://http2.mlstatic.com/balde-de-cervezas-sendstar-D_NQ_NP_959138-MLU26335617052_112017-Q.jpg" alt="Avatar" class="image">
+                     <div class="text">
+                         <table style="width: 100%; background-color: #F64322; border-radius: 8px;" >
+                             <tbody>
+                                 <tr>
+                                     <td >
+                                         <h2 id="tituloPlato">Las Heladas</h2>
+                                     </td>
+                                     <td>
+                                         <input type="button" id="precioPlato" value="$2.00" class="btn btn1">
+                                     </td>
+                                     <td>
+                                        <button type="submit">+</button>
+                                      </td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                    </div>
+            </div>
+
+        </form>
 		
 	    <div class="contenedor-platos">
 	    	<img src="https://vegfaqs.com/wp-content/uploads/2018/05/sodas.jpg" alt="Avatar" class="image">
@@ -112,20 +124,25 @@
 				 		<tbody>
 				 			<tr>
 				 				<td >
-				 					<h2>Soditas</h2>
+				 					<h2 id="tituloPlato">Soditas</h2>
 				 				</td>
 				 				<td>
 				 					<input type="button" id="" value="$1.00$" class="btn btn1">
-				 				</td>
+                                 </td>
+                                 <td>
+                                    <button type="submit">+</button>
+                                </td>
 				 			</tr>
 				 		</tbody>
 				 	</table>
 				</div>
         </div>
         
-        <div class="carrito" id="carrito"></div>
+        
 
-	</div>
+    </div>
+    
+    <div class="carrito" id="carrito"></div>
 	<br>
   <br>
   <br>
@@ -252,6 +269,7 @@
 
 
     <script src="js/main.js"></script>
+    <script src="js/carrito.js"></script>
 
 
 

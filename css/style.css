@@ -336,8 +336,14 @@ nav .toggle-collapse .toggle-icons i{
 
 /* CARRITO */
 .carrito{
-    display: block;
     color: white;
+    border: 1px solid white;
+}
+
+.elementoPlato{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
 }
 
 @media only screen and (max-width: 800px){
