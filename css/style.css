@@ -346,6 +346,13 @@ nav .toggle-collapse .toggle-icons i{
     margin: 5px;
 }
 
+.addCart{
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 25px;
+}
+
 @media only screen and (max-width: 800px){
     nav .nav-items{
         flex-direction: column;
